@@ -1,0 +1,781 @@
+<!doctype html>
+<html lang="pt-BR"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Oferta Brasil VIP — Promoções direto no seu WhatsApp</title>
+<meta name="description" content="Escolha sua categoria e receba ofertas grátis direto no WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Figtree:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','2195126134546001');fbq('track','PageView');</script>
+<style>    :root {
+      --navy: #0f2c59;
+      --navy-deep: #0a1f40;
+      --blue: #3483fa;
+      --blue-light: #eaf2ff;
+      --yellow: #ffe600;
+      --yellow-soft: #fff7b8;
+      --cream: #fffdf2;
+      --wa: #25d366;
+      --wa-dark: #128c4b;
+      --ink: #142038;
+      --muted: #56627a;
+      --line: #e6e2cf;
+      --white: #fff;
+      --display: "Bricolage Grotesque", "Figtree", system-ui, sans-serif;
+      --body: "Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: var(--body);
+      color: var(--ink);
+      background: var(--cream);
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+
+    a { color: inherit; }
+    :focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; border-radius: 8px; }
+
+    /* ---------- Ticker ---------- */
+    .ticker {
+      background: var(--navy);
+      color: var(--yellow);
+      overflow: hidden;
+      white-space: nowrap;
+      font-weight: 700;
+      font-size: 13px;
+      letter-spacing: .4px;
+      text-transform: uppercase;
+    }
+    .ticker-track {
+      display: inline-flex;
+      gap: 40px;
+      padding: 10px 0;
+      animation: ticker 32s linear infinite;
+    }
+    .ticker-track span::after { content: "✦"; margin-left: 40px; color: var(--blue); }
+    @keyframes ticker { to { transform: translateX(-50%); } }
+
+    /* ---------- Header ---------- */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      background: var(--yellow);
+      border-bottom: 2px solid var(--navy);
+    }
+    .header-inner {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 14px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: var(--navy);
+      font-family: var(--display);
+      font-weight: 800;
+      font-size: 20px;
+      letter-spacing: -.3px;
+    }
+    .brand-mark {
+      display: grid;
+      place-items: center;
+      width: 38px;
+      height: 38px;
+      border-radius: 11px;
+      background: var(--navy);
+      color: var(--yellow);
+      font-size: 16px;
+      transform: rotate(-6deg);
+    }
+    .brand b { color: var(--blue); font-weight: 800; }
+    .header-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 16px;
+      border-radius: 999px;
+      background: var(--navy);
+      color: var(--white);
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 14px;
+      transition: transform .15s ease, background .15s ease;
+    }
+    .header-cta:hover { background: var(--blue); transform: translateY(-1px); }
+
+    /* ---------- Hero ---------- */
+    .hero {
+      position: relative;
+      background:
+        radial-gradient(circle at 85% 20%, rgba(52,131,250,.16), transparent 42%),
+        radial-gradient(circle at 10% 90%, rgba(255,230,0,.45), transparent 40%),
+        var(--cream);
+      overflow: hidden;
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image: radial-gradient(rgba(15,44,89,.09) 1.2px, transparent 1.2px);
+      background-size: 22px 22px;
+      mask-image: linear-gradient(180deg, #000 0%, transparent 85%);
+      pointer-events: none;
+    }
+    .hero-inner {
+      position: relative;
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 72px 24px 88px;
+      display: grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap: 56px;
+      align-items: center;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 14px 8px 10px;
+      border-radius: 999px;
+      background: var(--white);
+      border: 1.5px solid var(--navy);
+      color: var(--navy);
+      font-size: 13px;
+      font-weight: 700;
+      box-shadow: 3px 3px 0 var(--navy);
+      margin-bottom: 22px;
+    }
+    .live-dot {
+      width: 9px; height: 9px; border-radius: 50%;
+      background: var(--wa);
+      box-shadow: 0 0 0 0 rgba(37,211,102,.6);
+      animation: pulse 1.8s infinite;
+    }
+    @keyframes pulse {
+      70% { box-shadow: 0 0 0 9px rgba(37,211,102,0); }
+      100% { box-shadow: 0 0 0 0 rgba(37,211,102,0); }
+    }
+
+    h1 {
+      margin: 0 0 22px;
+      font-family: var(--display);
+      font-weight: 800;
+      color: var(--navy);
+      font-size: clamp(42px, 6.4vw, 76px);
+      line-height: .98;
+      letter-spacing: -2.4px;
+    }
+    h1 .mark {
+      position: relative;
+      white-space: nowrap;
+      z-index: 0;
+    }
+    h1 .mark::after {
+      content: "";
+      position: absolute;
+      left: -4px; right: -6px; bottom: .06em;
+      height: .38em;
+      background: var(--yellow);
+      z-index: -1;
+      transform: skew(-8deg) rotate(-1deg);
+      border-radius: 4px;
+    }
+    h1 .blue { color: var(--blue); }
+
+    .lead {
+      max-width: 540px;
+      margin: 0 0 32px;
+      color: var(--muted);
+      font-size: 19px;
+      line-height: 1.6;
+    }
+    .lead strong { color: var(--ink); }
+
+    .cta-row { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 22px; }
+
+    .cta {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      min-height: 62px;
+      padding: 0 28px;
+      border-radius: 16px;
+      background: var(--wa);
+      color: var(--white);
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 800;
+      border: 2px solid var(--navy);
+      box-shadow: 5px 5px 0 var(--navy);
+      transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
+    }
+    .cta:hover { transform: translate(-2px, -2px); box-shadow: 7px 7px 0 var(--navy); background: #1fc25c; }
+    .cta:active { transform: translate(3px, 3px); box-shadow: 2px 2px 0 var(--navy); }
+    .cta svg { width: 24px; height: 24px; flex: 0 0 auto; }
+    .cta .arrow { transition: transform .15s ease; }
+    .cta:hover .arrow { transform: translateX(4px); }
+
+    .text-link {
+      color: var(--navy);
+      font-weight: 700;
+      font-size: 15px;
+      text-decoration: underline;
+      text-decoration-color: var(--blue);
+      text-decoration-thickness: 2px;
+      text-underline-offset: 5px;
+    }
+    .text-link:hover { color: var(--blue); }
+
+    .trust {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 22px;
+      margin: 30px 0 0;
+      padding: 0;
+      list-style: none;
+      color: var(--ink);
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .trust li { display: flex; align-items: center; gap: 8px; }
+    .trust li::before {
+      content: "✓";
+      display: grid; place-items: center;
+      width: 20px; height: 20px; border-radius: 50%;
+      background: var(--navy); color: var(--yellow);
+      font-size: 11px; font-weight: 900;
+    }
+
+    /* ---------- Phone mockup ---------- */
+    .phone-wrap { position: relative; justify-self: center; }
+    .phone {
+      position: relative;
+      width: 320px;
+      max-width: 100%;
+      border-radius: 40px;
+      padding: 12px;
+      background: var(--navy-deep);
+      box-shadow: 0 40px 80px rgba(10,31,64,.28), 12px 12px 0 var(--yellow);
+      transform: rotate(3deg);
+    }
+    .screen {
+      border-radius: 30px;
+      overflow: hidden;
+      background: #efe7dc;
+      background-image: radial-gradient(rgba(0,0,0,.035) 1px, transparent 1px);
+      background-size: 14px 14px;
+    }
+    .chat-head {
+      display: flex; align-items: center; gap: 10px;
+      padding: 18px 16px 12px;
+      background: #075e54;
+      color: var(--white);
+    }
+    .chat-avatar {
+      display: grid; place-items: center;
+      width: 38px; height: 38px; border-radius: 50%;
+      background: var(--yellow); color: var(--navy);
+      font-family: var(--display); font-weight: 800; font-size: 14px;
+    }
+    .chat-head strong { display: block; font-size: 14px; }
+    .chat-head small { font-size: 11px; opacity: .8; }
+    .chat-body { padding: 16px 12px 20px; display: grid; gap: 10px; min-height: 380px; align-content: start; }
+
+    .bubble {
+      max-width: 92%;
+      padding: 9px 11px 6px;
+      border-radius: 4px 14px 14px 14px;
+      background: var(--white);
+      box-shadow: 0 1px 1px rgba(0,0,0,.08);
+      font-size: 12.5px;
+      line-height: 1.45;
+      opacity: 0;
+      transform: translateY(12px) scale(.97);
+      animation: pop .5s cubic-bezier(.2,.9,.3,1.3) forwards;
+    }
+    .bubble:nth-child(1) { animation-delay: .5s; }
+    .bubble:nth-child(2) { animation-delay: 1.3s; }
+    .bubble:nth-child(3) { animation-delay: 2.1s; }
+    .bubble:nth-child(4) { animation-delay: 2.9s; }
+    @keyframes pop { to { opacity: 1; transform: none; } }
+    .bubble .who { display: block; color: var(--wa-dark); font-weight: 800; font-size: 11.5px; margin-bottom: 2px; }
+    .bubble .tag {
+      display: inline-block; margin-bottom: 4px;
+      padding: 2px 7px; border-radius: 6px;
+      background: var(--yellow); color: var(--navy);
+      font-size: 10.5px; font-weight: 800;
+    }
+    .bubble .time { display: block; text-align: right; color: #8a96a3; font-size: 10px; margin-top: 2px; }
+    .bubble.link b { color: #0b6bcb; font-weight: 600; }
+
+    .sticker {
+      position: absolute;
+      display: grid; place-items: center;
+      font-family: var(--display);
+      font-weight: 800;
+      color: var(--navy);
+      background: var(--yellow);
+      border: 2px solid var(--navy);
+      box-shadow: 4px 4px 0 var(--navy);
+      text-align: center;
+      line-height: 1;
+    }
+    .sticker.free {
+      top: -22px; left: -38px;
+      width: 104px; height: 104px; border-radius: 50%;
+      font-size: 22px;
+      transform: rotate(-14deg);
+      animation: wobble 4s ease-in-out infinite;
+    }
+    .sticker.free small { display: block; font-family: var(--body); font-size: 11px; font-weight: 800; letter-spacing: .5px; margin-top: 2px; }
+    .sticker.bell {
+      bottom: 56px; right: -30px;
+      padding: 10px 14px; border-radius: 14px;
+      background: var(--white);
+      font-size: 14px;
+      transform: rotate(5deg);
+    }
+    @keyframes wobble { 50% { transform: rotate(-6deg) scale(1.04); } }
+    .illus-note { margin: 22px 0 0; text-align: center; font-size: 11px; color: #8a8f9c; }
+
+    /* ---------- Sections ---------- */
+    section { position: relative; }
+    .wrap { max-width: 1180px; margin: 0 auto; padding: 0 24px; }
+    .kicker {
+      display: inline-block;
+      margin-bottom: 12px;
+      color: var(--blue);
+      font-weight: 800;
+      font-size: 13px;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+    }
+    h2 {
+      margin: 0 0 14px;
+      font-family: var(--display);
+      font-weight: 800;
+      color: var(--navy);
+      font-size: clamp(32px, 4.4vw, 50px);
+      line-height: 1.04;
+      letter-spacing: -1.4px;
+    }
+    .section-lead { margin: 0; max-width: 560px; color: var(--muted); font-size: 17px; line-height: 1.6; }
+
+    /* Steps */
+    .steps { padding: 84px 0; background: var(--white); border-top: 2px solid var(--navy); border-bottom: 2px solid var(--navy); }
+    .steps-head { display: flex; justify-content: space-between; align-items: end; gap: 30px; flex-wrap: wrap; margin-bottom: 44px; }
+    .step-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; counter-reset: step; }
+    .step {
+      position: relative;
+      padding: 30px 26px 28px;
+      border-radius: 22px;
+      background: var(--cream);
+      border: 1.5px solid var(--line);
+    }
+    .step::before {
+      counter-increment: step;
+      content: counter(step);
+      display: grid; place-items: center;
+      width: 52px; height: 52px; margin-bottom: 20px;
+      border-radius: 15px;
+      background: var(--navy); color: var(--yellow);
+      font-family: var(--display); font-weight: 800; font-size: 24px;
+    }
+    .step:nth-child(2) { transform: translateY(18px); }
+    .step:nth-child(3) { transform: translateY(36px); }
+    .step h3 { margin: 0 0 8px; font-family: var(--display); font-size: 22px; color: var(--navy); letter-spacing: -.4px; }
+    .step p { margin: 0; color: var(--muted); font-size: 15px; line-height: 1.55; }
+
+    /* Categories */
+    .groups { padding: 110px 0 96px; }
+    .groups-head { text-align: center; margin: 0 auto 48px; }
+    .groups-head .section-lead { margin: 0 auto; }
+    .group-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+
+    .group {
+      --accent: var(--blue-light);
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      min-height: 230px;
+      padding: 26px;
+      border-radius: 24px;
+      background: var(--white);
+      border: 2px solid var(--navy);
+      text-decoration: none;
+      color: var(--ink);
+      overflow: hidden;
+      box-shadow: 0 0 0 var(--navy);
+      transition: transform .18s ease, box-shadow .18s ease;
+    }
+    .group::before {
+      content: "";
+      position: absolute;
+      top: -60px; right: -60px;
+      width: 180px; height: 180px;
+      border-radius: 50%;
+      background: var(--accent);
+      transition: transform .35s ease;
+    }
+    .group:hover { transform: translate(-3px, -3px); box-shadow: 6px 6px 0 var(--navy); }
+    .group:hover::before { transform: scale(1.35); }
+    .group:active { transform: translate(1px, 1px); box-shadow: 1px 1px 0 var(--navy); }
+    .group > * { position: relative; }
+    .group .emoji { font-size: 44px; line-height: 1; margin-bottom: 18px; display: inline-block; transition: transform .25s ease; }
+    .group:hover .emoji { transform: rotate(-10deg) scale(1.12); }
+    .group h3 { margin: 0 0 6px; font-family: var(--display); font-size: 23px; color: var(--navy); letter-spacing: -.5px; }
+    .group p { margin: 0 0 22px; color: var(--muted); font-size: 14.5px; line-height: 1.5; }
+    .group .join {
+      margin-top: auto;
+      display: inline-flex; align-items: center; gap: 8px;
+      align-self: flex-start;
+      padding: 9px 14px;
+      border-radius: 999px;
+      background: var(--navy);
+      color: var(--white);
+      font-weight: 700; font-size: 13.5px;
+      transition: background .15s ease;
+    }
+    .group:hover .join { background: var(--wa-dark); }
+
+    .group.c1 { --accent: #fff3a3; }
+    .group.c2 { --accent: #ffe0ec; }
+    .group.c3 { --accent: #dff6e7; }
+    .group.c4 { --accent: #e3edff; }
+    .group.c5 { --accent: #ffe9cf; }
+    .group.c6 { --accent: #e8e3ff; }
+
+    .all-groups {
+      margin-top: 28px;
+      display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap;
+      padding: 22px 26px;
+      border-radius: 20px;
+      border: 2px dashed var(--navy);
+      background: var(--yellow-soft);
+    }
+    .all-groups p { margin: 0; font-weight: 600; color: var(--navy); font-size: 16px; }
+    .all-groups p span { display: block; color: var(--muted); font-weight: 500; font-size: 14px; margin-top: 2px; }
+
+    /* Why */
+    .why { padding: 0 0 100px; }
+    .why-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
+    .why-item {
+      padding: 24px 22px;
+      border-top: 3px solid var(--navy);
+    }
+    .why-item .icon { font-size: 28px; margin-bottom: 12px; display: block; }
+    .why-item h3 { margin: 0 0 6px; font-size: 17px; color: var(--navy); font-weight: 800; }
+    .why-item p { margin: 0; color: var(--muted); font-size: 14.5px; line-height: 1.55; }
+
+    /* Final CTA */
+    .final {
+      padding: 96px 0;
+      background: var(--navy);
+      color: var(--white);
+      overflow: hidden;
+    }
+    .final::before {
+      content: "";
+      position: absolute;
+      right: -120px; top: -120px;
+      width: 420px; height: 420px; border-radius: 50%;
+      background: var(--blue);
+      opacity: .35;
+    }
+    .final::after {
+      content: "%";
+      position: absolute;
+      left: -30px; bottom: -110px;
+      font-family: var(--display);
+      font-weight: 800;
+      font-size: 380px;
+      line-height: 1;
+      color: var(--yellow);
+      opacity: .08;
+      pointer-events: none;
+    }
+    .final .wrap { position: relative; text-align: center; }
+    .final h2 { color: var(--white); max-width: 760px; margin: 0 auto 16px; }
+    .final h2 span { color: var(--yellow); }
+    .final p { margin: 0 auto 34px; max-width: 520px; color: #c6d3ea; font-size: 18px; line-height: 1.6; }
+    .final .cta { border-color: var(--yellow); box-shadow: 5px 5px 0 var(--yellow); }
+    .final .cta:hover { box-shadow: 7px 7px 0 var(--yellow); }
+    .final small { display: block; margin-top: 22px; color: #9fb0cf; font-size: 13px; }
+
+    footer {
+      padding: 28px 24px 34px;
+      text-align: center;
+      color: #6f7788;
+      font-size: 12.5px;
+      line-height: 1.65;
+      background: var(--cream);
+    }
+    footer p { margin: 0 auto; max-width: 720px; }
+    footer strong { color: var(--navy); }
+
+    /* Mobile sticky CTA */
+    .sticky-cta {
+      display: none;
+      position: fixed;
+      left: 14px; right: 14px; bottom: 14px;
+      z-index: 30;
+      min-height: 56px;
+      border-radius: 16px;
+      align-items: center; justify-content: center; gap: 10px;
+      background: var(--wa);
+      color: var(--white);
+      font-weight: 800;
+      font-size: 16px;
+      text-decoration: none;
+      border: 2px solid var(--navy);
+      box-shadow: 4px 4px 0 var(--navy);
+      transform: translateY(120%);
+      transition: transform .3s ease;
+    }
+    .sticky-cta.show { transform: none; }
+    .sticky-cta svg { width: 22px; height: 22px; }
+
+    /* Reveal on scroll */
+    .reveal { opacity: 0; transform: translateY(24px); transition: opacity .6s ease, transform .6s ease; }
+    .reveal.in { opacity: 1; transform: none; }
+    .step.reveal.in:nth-child(2) { transform: translateY(18px); }
+    .step.reveal.in:nth-child(3) { transform: translateY(36px); }
+
+    /* Hero load-in */
+    .hero-copy > * { opacity: 0; transform: translateY(18px); animation: rise .7s ease forwards; }
+    .hero-copy > *:nth-child(1) { animation-delay: .05s; }
+    .hero-copy > *:nth-child(2) { animation-delay: .15s; }
+    .hero-copy > *:nth-child(3) { animation-delay: .28s; }
+    .hero-copy > *:nth-child(4) { animation-delay: .4s; }
+    .hero-copy > *:nth-child(5) { animation-delay: .52s; }
+    @keyframes rise { to { opacity: 1; transform: none; } }
+
+    @media (max-width: 960px) {
+      .hero-inner { grid-template-columns: 1fr; gap: 64px; padding: 52px 22px 80px; }
+      .group-grid { grid-template-columns: repeat(2, 1fr); }
+      .why-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    @media (max-width: 680px) {
+      .header-cta { display: none; }
+      .lead { font-size: 17px; }
+      .cta { width: 100%; }
+      .cta-row .text-link { margin: 0 auto; }
+      .phone { width: 290px; }
+      .sticker.free { left: -14px; width: 88px; height: 88px; font-size: 19px; }
+      .sticker.bell { right: -8px; }
+      .steps { padding: 64px 0; }
+      .step-grid { grid-template-columns: 1fr; }
+      .step:nth-child(n), .step.reveal.in:nth-child(n) { transform: none; }
+      .groups { padding: 72px 0; }
+      .group-grid { grid-template-columns: 1fr; gap: 14px; }
+      .group { min-height: 0; flex-direction: row; flex-wrap: wrap; align-items: center; gap: 0 14px; padding: 20px; }
+      .group .emoji { font-size: 36px; margin: 0; }
+      .group .g-text { flex: 1; min-width: 0; }
+      .group p { margin: 0; font-size: 13.5px; }
+      .group .join { margin-top: 14px; width: 100%; justify-content: center; }
+      .why-grid { grid-template-columns: 1fr; }
+      .why { padding-bottom: 72px; }
+      .final { padding: 72px 0 110px; }
+      .sticky-cta { display: flex; }
+      footer { padding-bottom: 96px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation: none !important; transition: none !important; }
+      .bubble, .hero-copy > *, .reveal { opacity: 1 !important; transform: none !important; }
+    }</style></head><body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91A9.85 9.85 0 0 0 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24a8.2 8.2 0 0 1 8.24 8.25c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.43-.06-.13-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.43h-.48a.92.92 0 0 0-.67.31c-.23.25-.87.85-.87 2.08 0 1.22.89 2.4 1.01 2.57.13.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.06-.1-.23-.17-.48-.29Z"/></symbol>
+  </svg>
+
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track">
+      <span>🏠 Casa e cozinha</span><span>💄 Beleza</span><span>🛒 Mercado</span><span>🧸 Bebês e infantil</span><span>🧰 Ferramentas</span><span>🏋️ Fitness</span><span>Entrada 100% grátis</span>
+      <span>🏠 Casa e cozinha</span><span>💄 Beleza</span><span>🛒 Mercado</span><span>🧸 Bebês e infantil</span><span>🧰 Ferramentas</span><span>🏋️ Fitness</span><span>Entrada 100% grátis</span>
+    </div>
+  </div>
+
+  <header>
+    <div class="header-inner">
+      <a class="brand" href="#topo" aria-label="Oferta Brasil VIP — início">
+        <span class="brand-mark">OB</span>
+        <span>OFERTA <b>BRASIL VIP</b></span>
+      </a>
+      <a class="header-cta" href="#grupos">Escolher meu grupo →</a>
+    </div>
+  </header>
+
+  <main id="topo">
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <div class="pill"><span class="live-dot"></span> Grupos abertos para novos membros</div>
+          <h1>Pare de caçar promoção. <span class="blue">Deixe as ofertas</span> <span class="mark">chegarem até você.</span></h1>
+          <p class="lead">
+            No <strong>Oferta Brasil VIP</strong> você escolhe o assunto que te interessa e recebe
+            as promoções <strong>direto no WhatsApp</strong>. Sem cadastro, sem custo — é só tocar e entrar.
+          </p>
+          <div class="cta-row">
+            <a class="cta" href="#grupos">
+              <svg aria-hidden="true"><use href="#wa"/></svg>
+              <span>Entrar grátis no grupo</span>
+              <span class="arrow" aria-hidden="true">→</span>
+            </a>
+            <a class="text-link" href="#grupos">ou escolha por categoria ↓</a>
+          </div>
+          <ul class="trust">
+            <li>Grátis para sempre</li>
+            <li>Sem cadastro</li>
+            <li>Saia quando quiser</li>
+          </ul>
+        </div>
+
+        <div class="phone-wrap">
+          <div class="sticker free">GRÁTIS<small>PRA ENTRAR</small></div>
+          <div class="phone" role="img" aria-label="Ilustração de uma conversa do grupo no WhatsApp recebendo ofertas">
+            <div class="screen">
+              <div class="chat-head">
+                <div class="chat-avatar">OB</div>
+                <div><strong>Oferta Brasil VIP 🔥</strong><small>Grupo de ofertas</small></div>
+              </div>
+              <div class="chat-body">
+                <div class="bubble"><span class="who">Oferta Brasil VIP</span><span class="tag">🏠 CASA E COZINHA</span><br>Achamos uma promoção boa em utensílios de cozinha! Confira os detalhes no link 👇<span class="time">09:12</span></div>
+                <div class="bubble link"><span class="who">Oferta Brasil VIP</span><b>🔗 Ver oferta na loja</b><span class="time">09:12</span></div>
+                <div class="bubble"><span class="who">Oferta Brasil VIP</span><span class="tag">💄 BELEZA</span><br>Kit de cuidados com desconto hoje. Corre que estoque de promoção acaba rápido! ⚡<span class="time">11:40</span></div>
+                <div class="bubble"><span class="who">Oferta Brasil VIP</span><span class="tag">🛒 MERCADO</span><br>Utilidades para o dia a dia com preço especial 🛍️<span class="time">14:05</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="sticker bell">🔔 Nova oferta!</div>
+          <p class="illus-note">Imagem ilustrativa</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="steps">
+      <div class="wrap">
+        <div class="steps-head reveal">
+          <div>
+            <span class="kicker">Como funciona</span>
+            <h2>Simples assim:<br>3 passos e pronto.</h2>
+          </div>
+          <p class="section-lead">Você não precisa baixar nada novo nem preencher formulário. Usa o WhatsApp que já tem no celular.</p>
+        </div>
+        <div class="step-grid">
+          <div class="step reveal">
+            <h3>Escolha seu interesse</h3>
+            <p>Casa, beleza, mercado, infantil, ferramentas ou fitness — fique só com o que faz sentido pra você.</p>
+          </div>
+          <div class="step reveal">
+            <h3>Toque para entrar</h3>
+            <p>O convite abre direto no seu WhatsApp. Um toque em “Entrar no grupo” e você já faz parte.</p>
+          </div>
+          <div class="step reveal">
+            <h3>Receba e aproveite</h3>
+            <p>As ofertas chegam no seu celular. Você confere cada uma e compra só o que valer a pena.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="groups" id="grupos">
+      <div class="wrap">
+        <div class="groups-head reveal">
+          <span class="kicker">Escolha seu grupo</span>
+          <h2>Qual oferta você quer receber?</h2>
+          <p class="section-lead">Cada categoria tem seu próprio grupo. Entre em um, em vários ou em todos — a escolha é sua.</p>
+        </div>
+
+        <div class="group-grid">
+          <a class="group c1 reveal" href="https://chat.whatsapp.com/KHLP72TzqHZKMiXd2PwBQo" target="_blank" rel="noopener noreferrer">
+            <span class="emoji" aria-hidden="true">🏠</span>
+            <div class="g-text"><h3>Casa e cozinha</h3><p>Utensílios, decoração e tudo para deixar o lar do seu jeito.</p></div>
+            <span class="join"><svg width="16" height="16" aria-hidden="true"><use href="#wa"/></svg> Entrar no grupo</span>
+          </a>
+          <a class="group c2 reveal" href="https://chat.whatsapp.com/D5tyJR5GIUt0BOqpOHQjLY" target="_blank" rel="noopener noreferrer">
+            <span class="emoji" aria-hidden="true">💄</span>
+            <div class="g-text"><h3>Beleza e cuidados</h3><p>Maquiagem, skincare, perfumes e cuidados pessoais.</p></div>
+            <span class="join"><svg width="16" height="16" aria-hidden="true"><use href="#wa"/></svg> Entrar no grupo</span>
+          </a>
+          <a class="group c3 reveal" href="https://chat.whatsapp.com/KOV0QAcad0i7J1hSPXztlK" target="_blank" rel="noopener noreferrer">
+            <span class="emoji" aria-hidden="true">🛒</span>
+            <div class="g-text"><h3>Mercado e utilidades</h3><p>Itens do dia a dia, limpeza e despensa com preço melhor.</p></div>
+            <span class="join"><svg width="16" height="16" aria-hidden="true"><use href="#wa"/></svg> Entrar no grupo</span>
+          </a>
+          <a class="group c4 reveal" href="https://chat.whatsapp.com/HtGxtnYtpqTDo4joZdV1pu" target="_blank" rel="noopener noreferrer">
+            <span class="emoji" aria-hidden="true">🧸</span>
+            <div class="g-text"><h3>Bebês e infantil</h3><p>Fraldas, brinquedos e o que os pequenos precisam.</p></div>
+            <span class="join"><svg width="16" height="16" aria-hidden="true"><use href="#wa"/></svg> Entrar no grupo</span>
+          </a>
+          <a class="group c5 reveal" href="https://chat.whatsapp.com/DH72eR0PUIB7AejC1u6OKK" target="_blank" rel="noopener noreferrer">
+            <span class="emoji" aria-hidden="true">🧰</span>
+            <div class="g-text"><h3>Ferramentas e construção</h3><p>Para a obra, a reforma ou aquele conserto de fim de semana.</p></div>
+            <span class="join"><svg width="16" height="16" aria-hidden="true"><use href="#wa"/></svg> Entrar no grupo</span>
+          </a>
+          <a class="group c6 reveal" href="https://chat.whatsapp.com/Dte5SpuwyZBCyFEzR0fUyZ" target="_blank" rel="noopener noreferrer">
+            <span class="emoji" aria-hidden="true">🏋️</span>
+            <div class="g-text"><h3>Fitness</h3><p>Suplementos, acessórios e roupas para treinar com tudo.</p></div>
+            <span class="join"><svg width="16" height="16" aria-hidden="true"><use href="#wa"/></svg> Entrar no grupo</span>
+          </a>
+        </div>
+
+              </div>
+    </section>
+
+    <section class="why">
+      <div class="wrap">
+        <div class="why-grid">
+          <div class="why-item reveal"><span class="icon" aria-hidden="true">💸</span><h3>Zero custo</h3><p>Entrar e participar é grátis. Você só gasta se quiser comprar.</p></div>
+          <div class="why-item reveal"><span class="icon" aria-hidden="true">🎯</span><h3>Só o que interessa</h3><p>Grupos separados por tema, para você não receber o que não usa.</p></div>
+          <div class="why-item reveal"><span class="icon" aria-hidden="true">⏱️</span><h3>Economize tempo</h3><p>Nada de abrir dezenas de sites. As ofertas vêm até você.</p></div>
+          <div class="why-item reveal"><span class="icon" aria-hidden="true">🙌</span><h3>Liberdade total</h3><p>Sem compromisso: saia do grupo quando quiser, com um toque.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="final">
+      <div class="wrap reveal">
+        <h2>A próxima promoção pode estar a <span>um toque</span> de você.</h2>
+        <p>Entre agora no Oferta Brasil VIP e comece a receber as ofertas no seu WhatsApp ainda hoje.</p>
+        <a class="cta" href="#grupos">
+          <svg aria-hidden="true"><use href="#wa"/></svg>
+          <span>Quero entrar no grupo!</span>
+          <span class="arrow" aria-hidden="true">→</span>
+        </a>
+        <small>Participação gratuita · Confira as condições de cada oferta antes de comprar</small>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>Oferta Brasil VIP</strong> é um grupo de divulgação de ofertas. Preços, estoques e condições podem mudar a qualquer momento e são definidos pelas lojas anunciantes. Confirme as informações na loja antes de finalizar a compra.</p>
+  </footer>
+
+  <a class="sticky-cta" id="sticky-cta" href="#grupos">
+    <svg aria-hidden="true"><use href="#wa"/></svg> Escolher meu grupo grátis
+  </a>
+<script>
+(function(){
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}})},{threshold:.12});
+document.querySelectorAll('.reveal').forEach(function(el){io.observe(el)});
+document.querySelectorAll('a.group').forEach(function(a){a.addEventListener('click',function(){var h=a.querySelector('h3');if(window.fbq)fbq('track','Lead',{content_name:h?h.textContent:'grupo'});});});
+var s=document.getElementById('sticky-cta'),hero=document.querySelector('.hero'),g=document.getElementById('grupos');
+function u(){if(!s)return;var past=hero.getBoundingClientRect().bottom<0,gr=g.getBoundingClientRect(),inG=gr.top<innerHeight&&gr.bottom>0;s.classList.toggle('show',past&&!inG);}
+addEventListener('scroll',u,{passive:true});u();
+})();
+</script>
+</body></html>
