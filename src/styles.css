@@ -154,22 +154,22 @@
   }
 }
 
-/* Oferta Brasil VIP — dark VIP theme */
+/* Oferta Brasil VIP — clean & trust light theme */
 :root {
-  --background: oklch(0.16 0.03 260);
-  --foreground: oklch(0.97 0.01 90);
-  --card: oklch(0.21 0.035 260);
-  --card-foreground: oklch(0.97 0.01 90);
-  --primary: oklch(0.72 0.19 150);
-  --primary-foreground: oklch(0.16 0.03 260);
-  --gold: oklch(0.84 0.15 85);
-  --gold-foreground: oklch(0.18 0.03 260);
-  --muted: oklch(0.25 0.03 260);
-  --muted-foreground: oklch(0.72 0.02 260);
-  --border: oklch(0.32 0.03 260);
-  --accent: oklch(0.28 0.04 260);
-  --accent-foreground: oklch(0.97 0.01 90);
-  --shadow-glow: 0 18px 40px -16px color-mix(in oklab, var(--primary) 60%, transparent);
+  --background: oklch(0.985 0.008 95);
+  --foreground: oklch(0.22 0.03 260);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.22 0.03 260);
+  --primary: oklch(0.66 0.19 150);
+  --primary-foreground: oklch(1 0 0);
+  --gold: oklch(0.62 0.17 55);
+  --gold-foreground: oklch(1 0 0);
+  --muted: oklch(0.955 0.03 95);
+  --muted-foreground: oklch(0.45 0.03 260);
+  --border: oklch(0.9 0.015 95);
+  --accent: oklch(0.95 0.05 150);
+  --accent-foreground: oklch(0.22 0.03 260);
+  --shadow-glow: 0 12px 28px -12px color-mix(in oklab, var(--primary) 55%, transparent);
 }
 @theme inline {
   --color-gold: var(--gold);
