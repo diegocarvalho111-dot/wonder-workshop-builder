@@ -54,7 +54,7 @@ function Index() {
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => track(g.name)}
-              className="flex items-center gap-4 rounded-2xl border border-border bg-card p-4 transition active:scale-[0.98] hover:border-primary"
+              className="flex items-center gap-4 rounded-2xl border border-border bg-card p-4 shadow-sm transition active:scale-[0.98] hover:border-primary"
             >
               <span className="text-3xl" aria-hidden>{g.emoji}</span>
               <span className="flex-1">
